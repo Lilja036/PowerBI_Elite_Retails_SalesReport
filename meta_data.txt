@@ -1,0 +1,24 @@
+it contains following data files;
+
+DataMaster table: 
+Use following columns;
+date, year, month, quarter, week and week number.
+
+dcategory:
+category key: uniquely identify this table
+category: contains two category special and general.
+
+dgeography_salesfact:
+contains the following columns;
+country, town, salesrepid, productid, date, units, percentofstandardcost, revenuediscount.
+
+Product:
+This table contains, productid, subcategoryid, standardcost, productname, retailprice.
+
+SalesRep:
+it contains salesrep_id and sales_rep_name.
+
+SubCategory:
+it contains subcategorykey, categorykey and subcategory_name.
+
+
